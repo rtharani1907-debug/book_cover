@@ -85,7 +85,20 @@ Publish the website in the LocalHost.
       color: rgb(160, 153, 153);
       color: black;
       text-align: right;  
-  }
+    }
+
+    .author-image {
+       width: 70px;
+       height: 70px;
+       border-spacing: 0cap;       
+       object-fit: cover;          
+       position: absolute;        
+       bottom: 20px;               
+       right: 550px;                
+       border: 2px solid #000;   
+    }
+
+
   </style>
 </head>
 <body>
@@ -93,13 +106,16 @@ Publish the website in the LocalHost.
     <div class="book-title">The Life of a girl</div>
     <div class="book-subtitle">Freedom and fire</div>
     <div class="author">by: Tharani Rameshbabu</div>
+    <img src="thar.jpg" alt="Tharani Rameshbabu" class="author-image">
+
   </div>
 
 </body>
 </html>
+
 ```
 # OUTPUT:
-![alt text](<Screenshot (43).png>)
+![alt text](<Screenshot (44).png>)
 
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
